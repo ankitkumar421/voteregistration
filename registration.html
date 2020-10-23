@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="form1.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <header>
+        <div class="main">
+            <div class="logo">
+                <img src="flag.png">
+            </div>
+            <div class="header">
+                <h1 style="color: white;">राष्ट्रीय मतदाता सेवा डेमो पोर्टल</h1>
+                <p style="color: white;">NATIONAL VOTERS' SERVICE DEMO PORTAL</p>
+                <img src="logo.png">
+            </div> 
+        </div>
+    </header>
+        <div class="fig_1">
+            <p>Election Registration officer,</p> 
+        </div>
+        <div class="select">
+            <p>State :</p>
+        </div>
+        <div class="state">
+            <select>
+                <option value="0">Select</option>
+                <option value="1">Andhra Pradesh</option>
+                <option value="2">Assam</option>
+                <option value="3">Agra</option>
+                <option value="4">Bihar</option>
+                <option value="5">Chhatisghar</option>
+                <option value="6">Goa</option>
+                <option value="7">Gujrat</option>
+                <option value="8">Haryana</option>
+            </select>
+        </div>
+
+        <div class="district">
+            <p>District :</p>
+                <select required>
+                    <option value="0">Select</option>
+                    <option value="1">Gharwa</option>
+                    <option value="2">Palamu</option>
+                    <option value="3">Latehar</option>
+                    <option value="4">Akola</option>
+                    <option value="5">Beed</option>
+                    <option value="6">Bhandara</option>
+                    <option value="7">Bokaro</option>
+                    <option value="8">Dhule</option>
+                </select>
+        </div>
+
+        <div class="assembly">
+            <p>Legislative assembly/Parlimentary counstituncy :  </p>
+                <select required>
+                    <option value="0">Select</option>
+                    <option value="1">Rajya Sabha</option>
+                    <option value="1">Vidhan Sabha</option>
+                </select>
+        </div>
+
+        <div class="voter">
+            <p>I request that my name be included in electoral rolls for all the aforesaid areas.</p>
+            <div class="input">
+                <input type="radio" id="first" name="rolls" value="First">
+                <label for="first">First time voter</label><br>
+                <input type="radio" id="transfer" name="rolls" value="second">
+                <label for="transfer">Due to transfer from other meeting areas</label>
+            </div>
+        </div>
+
+        <div class="fig_2">
+            <p>(T) disabilities(if any)</p><br>
+
+            <input type="radio" id="first" name="visual" value="First">
+            <label for="first">Visual impairment</label>&emsp;
+
+            <input type="radio" id="second" name="visual" value="second">
+            <label for="second">Speech and hearing impairment</label>&emsp;
+
+            <input type="radio" id="third" name="visual" value="third">
+            <label for="third">Motion disabling</label>&emsp;
+
+            <input type="radio" id="fourth" name="visual" value="fourth">
+            <label for="fourth">other</label>
+
+            <form>
+                <label for="other"></label>
+                <input type="text" id="other" name="other" placeholder="other">
+            </form>
+
+            <label for="email">Email ID (optional)</label>&emsp;
+            <input type="text" id="email" name="email" placeholder="email">&emsp;
+            <label for="num">mobile number (optional)&emsp;+91</label>
+            <input type="text" id="num" name="num" placeholder="number">
+
+        </div>
+
+        <div class="fig_3">
+            <div class="choose">
+                <p>Your photo</p>
+                <input type="file" id="photo" name="photo">
+                <p>Age proof</p>
+                <input type="file" id="age" name="age">
+                <p>Address Proof</p>
+                <input type="file" id="Address" name="Address">
+            </div>
+
+            <div class="document">
+                <p>Document type :</p>   
+                <select>
+                    <option value="0">Select</option>
+                </select>
+                <p>Document type :</p>   
+                <select>
+                    <option value="0">Select</option>
+                </select>
+            </div>
+         </div>
+    
+</body>
+</html>

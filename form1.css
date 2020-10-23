@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    position:relative;
+}
+
+body{
+    background-position: fixed;
+    background-position: center;
+}
+
+.main{
+    background-color: rgb(44, 41, 41);
+    display: block;
+}
+
+.logo img{
+    position: relative;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    
+}
+
+.header{
+    position: relative;
+    left: 22%;
+    bottom: 125px;
+    border: 0ch;
+}
+
+.header p{
+    font-size: 2em;
+    font-weight: bolder;
+    position: relative;
+    left: 25%;
+    bottom: 36px;
+}
+
+.header img{
+    position: absolute;
+    float: right;
+    right: 25%;
+    max-height: 200px;
+    bottom: -50px;
+}
+
+body{
+    overflow-x: hidden;
+    background-color: rgba(223, 215, 215, 0.897);
+}
+
+.fig_1{
+    font-size: x-large;
+    position: relative;
+    left: 10%;
+    margin-top: 100px;
+}
+
+.select {
+    font-size: x-large;
+    position: relative;
+    left: 15%;
+    margin-top: 2%;
+}
+
+.state{
+    position: relative;
+    left: 20%;
+    top: -24px;
+    border: none;
+}
+
+
+.state select {
+    background-color:grey;
+    color: aliceblue;
+    font-size: large;
+}
+
+.district p{
+    font-size: x-large;
+    position: relative;
+    left: 50%;
+    margin-top: -47px; 
+}
+
+.district select{
+    background-color:grey;
+    color: aliceblue;
+    font-size: large;
+    position: relative;
+    left: 56%;
+    top: -25px;
+}
+
+.assembly p{
+    font-size: x-large;
+    position: relative;
+    left: 9.6%;
+    top: 60px; 
+}
+
+.assembly select{
+    background-color:grey;
+    color: aliceblue;
+    font-size: large;
+    position: relative;
+    left: 38%;
+    top: 36px;
+}
+
+.voter p{
+    font-size: x-large;
+    position: relative;
+    top: 150px;
+    left: 9%;
+}
+
+.input{
+    font-size: x-large;
+    position: relative;
+    left: 9%;
+    top: 180px;
+}
+
+.fig_2{
+    font-size: x-large;
+    position: relative;
+    top: 250px;
+    left: 9%;
+}
+
+.fig_2 form{
+    position: relative;
+    top: -27px;
+    left: 47%;
+}
+
+.choose{
+    font-size: x-large;
+    position: relative;
+    left: 9%;
+    top: 300px;
+}
+
+.document p{
+    font-size: x-large;
+    position: relative;
+    left: 40%;
+    top: 210px;
+}
+
+.document select{
+    background-color:grey;
+    color: aliceblue;
+    font-size: large;
+    position: relative;
+    left: 52%;
+    top: 190px;
+}
